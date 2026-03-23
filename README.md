@@ -21,29 +21,29 @@ The main objective of this project is to:
 
 ## 🔗 API Used
 
-iTunes Search API
-Website: https://itunes.apple.com/search
+- iTunes Search API
+- Website: https://itunes.apple.com/search
 
-This API provides access to music-related data such as songs, artists, albums, and artwork images.
+- This API provides access to music-related data such as songs, artists, albums, and artwork images.
 
 ---
 
 ## ✨ Features (Planned)
 
-🔍 Search songs by title or artist
-🎯 Filter results based on artist name or collection
-📊 Sort songs alphabetically or based on artist
-📄 Display song details (track name, artist, album artwork)
-🎨 Responsive and clean user interface
+[🔍] Search songs by title or artist
+[🎯] Filter results based on artist name or collection
+[📊] Sort songs alphabetically or based on artist
+[📄] Display song details (track name, artist, album artwork)
+[🎨] Responsive and clean user interface
 
 ---
 
 ## 🛠️ Technologies Used
 
-HTML
-CSS (optional use of Tailwind CSS / Bootstrap)
-JavaScript (ES6+)
-Fetch API
+- HTML
+- CSS (optional use of Tailwind CSS / Bootstrap)
+- JavaScript (ES6+)
+- Fetch API
 
 ---
 
