@@ -1,86 +1,89 @@
-# 🎵 Music Explorer (iTunes API)
+# 🎵 Music Explorer Web App
 
 ## 📌 Project Description
 
-Music Explorer is a web application that allows users to search for songs and explore music data using the iTunes Search API. The application displays song details such as track name, artist, and album artwork in a clean and user-friendly interface.
+The Music Explorer is a web application that allows users to search for songs and view basic details such as track name, artist, and album artwork. The application fetches real-time music data using the iTunes Search API and displays it in a clean and interactive interface.
 
 ---
 
-## 🎯 Purpose
+## 🔗 API Used
 
-The purpose of this project is to demonstrate:
-
-* JavaScript fundamentals
-* API integration using fetch
-* Dynamic data rendering
-* Responsive UI design
-
----
-
-## 🌐 API Used
-
-This project uses the iTunes Search API:
-https://itunes.apple.com/search
-
-The API provides access to:
-
-* Songs
-* Artists
-* Albums
-* Artwork images
-
----
-
-## ✨ Features (Implemented)
-
-* Search songs by name
-* Display song results dynamically
-* Show artist name and album artwork
-* Loading state while fetching data
+iTunes Search API
+Website: https://itunes.apple.com/search
 
 ---
 
 ## ✨ Features (Planned)
 
-* Filter songs based on criteria
-* Sort songs by name or artist
-* Add favorites functionality
-* Dark/Light mode toggle
+🔍 Search songs by name
+🎯 Filter results based on artist name
+📊 Sort songs alphabetically or by artist
+📄 View song details (track name, artist, album artwork)
+🎨 Responsive and user-friendly UI
 
 ---
 
 ## 🛠️ Technologies Used
 
-* HTML
-* CSS
-* JavaScript
-* Fetch API
+HTML
+CSS
+JavaScript (ES6+)
+Fetch API
 
 ---
 
-## 📁 Project Structure
+## 🚀 Setup Instructions
 
-* index.html
-* style.css
-* script.js
-* README.md
+Clone the repository:
 
----
+```
+git clone https://github.com/your-username/music-explorer.git
+```
 
-## 🚀 How to Run the Project
+Open the project folder
 
-1. Clone the repository
-2. Open index.html in your browser
-3. Enter a song or artist name to search
+Open `index.html` in your browser
 
 ---
 
-## 🧠 Project Flow
+## 📅 Project Plan
 
-User enters a search query → Data is fetched from iTunes API → Results are displayed on the screen
+### Milestone 1: Idea Finalization and Setup
+
+* Selected project idea: Music Explorer
+* Chose iTunes API for music data
+* Created project structure (HTML, CSS, JS)
+* Initialized GitHub repository
 
 ---
 
-## 📅 Milestone Status
+### Milestone 2: API Integration and Search
 
-* Milestone 1: Completed (Project planning and setup)
+* Integrated iTunes API using fetch()
+* Implemented search functionality
+* Displayed results dynamically
+* Designed basic UI for results
+
+---
+
+### Milestone 3: Enhancements and Features
+
+* Implement filtering using array methods
+* Add sorting functionality
+* Improve UI and responsiveness
+* Add better user interaction
+
+---
+
+### Milestone 4: Final Touch and Submission
+
+* Code cleanup and optimization
+* Final UI improvements
+* Documentation update (README)
+* Ready for submission
+
+---
+
+## 📌 Notes
+
+This project is developed as part of a JavaScript assignment to demonstrate API integration, use of higher-order functions, and dynamic UI development.
