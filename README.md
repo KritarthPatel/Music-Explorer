@@ -84,4 +84,3 @@ User enters a search query → Data is fetched from iTunes API → Results are d
 ## 📅 Milestone Status
 
 * Milestone 1: Completed (Project planning and setup)
-* Milestone 2: Completed (API integration and data display)
