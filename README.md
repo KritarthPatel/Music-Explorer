@@ -2,23 +2,23 @@
 
 ## 📌 Project Description
 
-The Music Explorer is a web application that allows users to search for songs and view basic details such as track name, artist, and album artwork. The application fetches real-time music data using the iTunes Search API and displays it in a clean and interactive interface.
+The Music Explorer is a web application that allows users to search for songs and view basic details such as track name, artist, album, and artwork. The application fetches real-time music data using the iTunes API and presents it in a clean and interactive interface.
 
 ---
 
 ## 🔗 API Used
 
-iTunes Search API
+iTunes API (Apple music data source)
 Website: https://itunes.apple.com/search
 
 ---
 
 ## ✨ Features (Planned)
 
-🔍 Search songs by name
-🎯 Filter results based on artist name
-📊 Sort songs alphabetically or by artist
-📄 View song details (track name, artist, album artwork)
+🔍 Search songs by title
+🎯 Filter results by artist and collection
+📊 Sort songs by track name or artist name
+📄 View detailed song information (track, artist, album, artwork)
 🎨 Responsive and user-friendly UI
 
 ---
@@ -26,7 +26,7 @@ Website: https://itunes.apple.com/search
 ## 🛠️ Technologies Used
 
 HTML
-CSS
+CSS (Tailwind CSS / Bootstrap optional)
 JavaScript (ES6+)
 Fetch API
 
@@ -42,48 +42,18 @@ git clone https://github.com/your-username/music-explorer.git
 
 Open the project folder
 
-Open `index.html` in your browser
+Open index.html in your browser
 
 ---
 
 ## 📅 Project Plan
 
-### Milestone 1: Idea Finalization and Setup
-
-* Selected project idea: Music Explorer
-* Chose iTunes API for music data
-* Created project structure (HTML, CSS, JS)
-* Initialized GitHub repository
-
----
-
-### Milestone 2: API Integration and Search
-
-* Integrated iTunes API using fetch()
-* Implemented search functionality
-* Displayed results dynamically
-* Designed basic UI for results
-
----
-
-### Milestone 3: Enhancements and Features
-
-* Implement filtering using array methods
-* Add sorting functionality
-* Improve UI and responsiveness
-* Add better user interaction
-
----
-
-### Milestone 4: Final Touch and Submission
-
-* Code cleanup and optimization
-* Final UI improvements
-* Documentation update (README)
-* Ready for submission
+Milestone 1: Idea finalization and setup
+Milestone 2: API integration and music search
+Milestone 3: Add filtering, sorting, and UI improvements
 
 ---
 
 ## 📌 Notes
 
-This project is developed as part of a JavaScript assignment to demonstrate API integration, use of higher-order functions, and dynamic UI development.
+This project is developed as part of a JavaScript assignment to demonstrate API integration, use of higher-order functions, and UI development.
