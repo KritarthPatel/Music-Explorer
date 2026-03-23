@@ -15,11 +15,11 @@ Website: https://itunes.apple.com/search
 
 ## ✨ Features (Planned)
 
-🔍 Search songs by title
-🎯 Filter results by artist and collection
-📊 Sort songs by track name or artist name
-📄 View detailed song information (track, artist, album, artwork)
-🎨 Responsive and user-friendly UI
+- 🔍 Search songs by title
+- 🎯 Filter results by artist and collection
+- 📊 Sort songs by track name or artist name
+- 📄 View detailed song information (track, artist, album, artwork)
+- 🎨 Responsive and user-friendly UI
 
 ---
 
