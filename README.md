@@ -30,11 +30,11 @@ The main objective of this project is to:
 
 ## ✨ Features (Planned)
 
-[🔍] Search songs by title or artist
-[🎯] Filter results based on artist name or collection
-[📊] Sort songs alphabetically or based on artist
-[📄] Display song details (track name, artist, album artwork)
-[🎨] Responsive and clean user interface
+- 🔍 Search songs by title or artist
+- 🎯 Filter results based on artist name or collection
+- 📊 Sort songs alphabetically or based on artist
+- 📄 Display song details (track name, artist, album artwork)
+- 🎨 Responsive and clean user interface
 
 ---
 
