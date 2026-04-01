@@ -1,143 +1,114 @@
 # 🎵 Music Explorer Web App
 
-## 📌 Project Description
-
-The Music Explorer is a web application developed to search and display music data in a simple and interactive way. Users can enter a song or artist name and view relevant results such as track name, artist, and album artwork.
-
-This project focuses on demonstrating the use of JavaScript concepts such as API integration, array higher-order functions, and dynamic UI updates.
+A beginner-level web application that allows users to search, filter, and sort songs using the iTunes API. This project is developed using HTML, CSS, and vanilla JavaScript (ES6) as part of an academic assignment.
 
 ---
 
-## 🎯 Objective
+## 📌 Project Overview
 
-The main objective of this project is to:
-
-* Integrate a public API using fetch
-* Display real-time data dynamically on the webpage
-* Implement features like search, filtering, and sorting using array higher-order functions
-* Build a responsive and user-friendly interface
+Music Explorer fetches real-time music data from the iTunes API and displays it in a clean, responsive user interface. Users can search for songs, view details like track name, artist, and artwork, and interact with the results through filtering and sorting features.
 
 ---
 
-## 🔗 API Used
+## 🚀 Planned Features
 
-- iTunes Search API
-- Website: https://itunes.apple.com/search
-
-- This API provides access to music-related data such as songs, artists, albums, and artwork images.
-
----
-
-## ✨ Features (Planned)
-
-- 🔍 Search songs by title or artist
-- 🎯 Filter results based on artist name or collection
-- 📊 Sort songs alphabetically or based on artist
-- 📄 Display song details (track name, artist, album artwork)
-- 🎨 Responsive and clean user interface
+* 🔍 **Search** — Search songs by name or artist using the iTunes API
+* 🎛️ **Filter** — Filter results based on artist or collection
+* 🔃 **Sort** — Sort results by track name (A–Z) or artist name
+* 🃏 **Music Cards** — Display artwork, track name, and artist for each result
+* 📱 **Responsive Design** — Support for mobile, tablet, and desktop screens
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ Tech Stack
 
-- HTML
-- CSS (optional use of Tailwind CSS / Bootstrap)
-- JavaScript (ES6+)
-- Fetch API
+| Technology       | Purpose                                |
+| ---------------- | -------------------------------------- |
+| HTML5            | Page structure and layout              |
+| CSS3             | Styling and responsive design          |
+| JavaScript (ES6) | Logic and interactivity                |
+| Fetch API        | Fetching data from iTunes API          |
+| Git & GitHub     | Version control and project submission |
 
 ---
 
-## 🚀 Setup Instructions
-
-Clone the repository:
+## 📁 Project Structure
 
 ```
+music-explorer/
+├── index.html       # Main HTML file (page structure)
+├── style.css        # Stylesheet (layout, cards, responsiveness)
+├── script.js        # JavaScript (API calls, search, filter, sort)
+└── README.md        # Project documentation (this file)
+```
+
+---
+
+## ⚙️ Setup & Usage
+
+### 1. Clone the Repository
+
+```bash
 git clone https://github.com/your-username/music-explorer.git
+cd music-explorer
 ```
 
-Open the project folder
+### 2. Run the App
 
-Open `index.html` in your browser
-
----
-
-## 📅 Project Plan
-
-### 🚀 Milestone 1: Project Setup and Basic Structure
-
-**Goal:**
-To decide the project idea and set up the initial structure.
-
-**Tasks:**
-
-* Selected the project idea (Music Explorer)
-* Chose iTunes API for fetching music data
-* Created GitHub repository
-* Created README.md file
-* Set up basic project structure
+Simply open `index.html` in your browser — no server setup required.
 
 ---
 
-### 🌐 Milestone 2: API Integration
+## 🌐 API Reference
 
-**Goal:**
-To integrate and display real-time data from the API.
+This project uses the **iTunes Search API**.
 
-**Tasks:**
+* **Base URL:** `https://itunes.apple.com/search`
+* **Search Endpoint:** `?term={song_or_artist}&entity=song&limit=10`
 
-* Implemented API calls using fetch
-* Displayed fetched data dynamically
-* Handled loading states
-* Ensured basic responsiveness
+**Example Request:**
 
-**Deliverable:**
-
-* Successfully displayed API data on the webpage
+```
+https://itunes.apple.com/search?term=arijit&entity=song
+```
 
 ---
 
-### ⚙️ Milestone 3: Core Features
+## 🗺️ Development Milestones
 
-**Goal:**
-To enhance the application with interactivity.
-
-**Tasks:**
-
-* Implement search functionality
-* Implement filtering using array methods
-* Implement sorting using array methods
-* Add interactive UI elements
-
-**Important:**
-All search, filtering, and sorting functionalities are implemented using array higher-order functions such as map, filter, and sort.
-
-**Deliverable:**
-
-* Fully functional interactive features
+* [x] Milestone 1 — Project setup and planning
+* [ ] Milestone 2 — API integration and displaying data
+* [ ] Milestone 3 — Search, filter, and sort functionality
+* [ ] Milestone 4 — Documentation and deployment
 
 ---
 
-### 🚀 Milestone 4: Documentation and Final Submission
+## ⚠️ Known Limitations
 
-**Goal:**
-To finalize and prepare the project for submission.
-
-**Tasks:**
-
-* Updated README with complete details
-* Cleaned and organized code
-* Prepared project for deployment
+* Results depend on the availability of data from the iTunes API
+* Some songs may not have artwork or complete metadata
+* Limited control over filtering directly from API (handled on frontend)
 
 ---
 
-## 📌 Notes
+## 🔮 Possible Future Improvements
 
-This project is developed as part of a JavaScript assignment to demonstrate API integration, use of array higher-order functions, and UI development.
+* Add a **Favorites** feature using `localStorage`
+* Add **pagination** for large result sets
+* Add a **Dark Mode** toggle
+* Improve UI design and animations
 
 ---
 
-## 💡 Final Note
+## 👤 Author
 
-This project helped me understand how real-world applications fetch and display data using APIs. It also improved my understanding of JavaScript, especially working with asynchronous operations and dynamic UI updates.
+**Kritarth Patel**
 
-I focused on writing clean and structured code while implementing each milestone step by step.
+* GitHub: https://github.com/your-username
+* Course: Web Development — Academic Assignment
+
+---
+
+## 📄 License
+
+This project is created for educational purposes as part of an academic assignment.
